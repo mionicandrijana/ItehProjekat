@@ -9,81 +9,67 @@ include 'include/header.php';
 				<div class="9u mobileUI-main-content" id="content">
 					<section>
 						<div class="post">
-							<style type="text/css">
-* {
-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
-color: #333;
-line-height: 140%;
-}
-select, input, textarea {
-font-size: 1em;
-}
+						<head>
+						<script type="text/javascript" src="js/jquery.js"></script>
+						<script type="text/javascript" src="js/jq-galerija.js"></script>
+		<link href="css/galerija.css" rel="stylesheet" type="text/css"/>
 
-h2 {
-margin-top: 1.2em;
-margin-bottom: 0;
-padding: 0;
-border-bottom: 1px dotted #dedede;
-}
-h3 {
-margin-top: 1.2em;
-margin-bottom: 0;
-padding: 0;
-}
-.example {
-border: 1px solid #CCC;
-background: #f2f2f2;
-padding: 10px;
-}
-ul {
-list-style-image:url(list-style.gif);
-}
-pre {
-font-family: "Lucida Console", "Courier New", Verdana;
-border: 1px solid #CCC;
-background: #f2f2f2;
-padding: 10px;
-}
-code {
-font-family: "Lucida Console", "Courier New", Verdana;
-margin: 0;
-padding: 0;
-}
-#gallery {
-margin:0 auto;
-padding: 30px;
-background: #36676c;
-}
-#descriptions {
-position: relative;
-height: 50px;
-background: #EEE;
-margin-top: 10px;
-width: 640px;
-padding: 10px;
-overflow: hidden;
-}
-#descriptions .ad-image-description {
-position: absolute;
-}
-#descriptions .ad-image-description .ad-description-title {
-display: block;
-}
-</style>
-</head>
-<div
- id="gallery" class="ad-gallery">
-<div class="ad-image-wrapper"></div><div
- class="ad-controls"></div><div class="ad-nav"><div
- class="ad-thumbs"><ul class="ad-thumb-list"><li><a
- href="images/sl1l.jpg"><img src="images/sl1s.jpg"
- class="image0"></a></li><li><a
- href="images/sl2l.jpg"><img src="images/sl2s.jpg"
- class="image1"></a></li><li><a
- href="gal/sl3.jpg"><img src="gal/ss3.jpg"
- class="image1"></a></li><li><a
- href="gal/sl4.jpg"><img src="gal/ss4.jpg"
- class="image1"></a></li></ul></div></div></div>
+<!-- the CSS for Smooth Div Scroll -->
+	<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
+	
+	
+<!--<link rel="Stylesheet" type="text/css" href="css/pageStyle.css" />
+	<!-- jQuery library - I get it from Google API's -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>-->
+	<!-- jQuery UI widget factory -->
+	<!-- You can download it as a part of jQuery UI Core
+		 http://jqueryui.com/download -->
+	<script src="js/jquery.ui.widget.js" type="text/javascript"></script>
+	
+	<!-- Smooth Div Scroll 1.0 - minified for faster loading-->
+	<script src="js/jquery.smoothDivScroll-1.0-min.js" type="text/javascript"></script>
+
+	 <script type="text/javascript">
+		$(function() {
+			$("div#makeMeScrollable").smoothDivScroll({ autoScroll: "onstart", 
+														autoScrollDirection: "backandforth",
+														autoScrollStep: 1,
+														autoScrollInterval: 15,
+														startAtElementId: "startAtMe",
+														visibleHotSpots: "always" });
+			
+		});
+		
+	</script></head>
+<div id="makeMeScrollable">
+		<div class="scrollingHotSpotLeft" style="opacity: 0;"></div>
+		<div class="scrollingHotSpotRight" style="opacity: 0;"></div>
+		
+		<div class="scrollWrapper">
+			<div class="scrollableArea" id="gallery">
+				<a href="images/slika1l.jpg" target="_blank"><img class="ScrollableImage" src="images/slika1s.jpg" alt="Demo image" width="500" height="300" id="startAtMe"/></a>
+				<a href="images/FX-2L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-2L small.jpg" alt="Demo image" width="500" height="300" id="startAtMe"/></a>
+				<a href="images/FX-3L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-3L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-4L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-4L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-5L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-5L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-6L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-6L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-7L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-7L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-8L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-8L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-9L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-9L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-10L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-10L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-11L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-11L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/FX-12L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-12L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				
+				</div>
+		</div>
+	</div>
+	
+	<div id="col1" align="center">
+		<p><img id="largeImg" src="images/FX-1L.jpg" alt="Large image" /></p>
+	</div>
+	
+	
 						</div>
 					</section>
 				</div>
