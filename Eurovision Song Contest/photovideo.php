@@ -48,25 +48,25 @@ include 'include/header.php';
 		
 		<div class="scrollWrapper">
 			<div class="scrollableArea" id="gallery">
-				<a href="images/slika1l.jpg" target="_blank"><img class="ScrollableImage" src="images/slika1s.jpg" alt="Demo image" width="500" height="300" id="startAtMe"/></a>
-				<a href="images/FX-2L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-2L small.jpg" alt="Demo image" width="500" height="300" id="startAtMe"/></a>
-				<a href="images/FX-3L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-3L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-4L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-4L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-5L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-5L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-6L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-6L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-7L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-7L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-8L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-8L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-9L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-9L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-10L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-10L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-11L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-11L small.jpg" alt="Demo image" width="500" height="300"/></a>
-				<a href="images/FX-12L.jpg" target="_blank"><img class="ScrollableImage" src="images/FX-12L small.jpg" alt="Demo image" width="500" height="300"/></a>
+				<a href="images/sl1l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl1s.jpg" alt="Demo image" width="300" height="180" id="startAtMe"/></a>
+				<a href="images/sl2l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl2s.jpg" alt="Demo image" width="300" height="180" id="startAtMe"/></a>
+				<a href="images/sl3l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl3s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl4l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl4s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl5l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl5s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl6l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl6s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl7l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl7s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl8l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl8s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl9l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl9s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl10l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl10s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl11l.jpg" target="_blank"><img class="ScrollableImage" src="images/sl11s.jpg" alt="Demo image" width="300" height="180"/></a>
+				<a href="images/sl12l.jpg" target="_blank"><img class="ScrollableImage" src="i=sl12s.jpg" alt="Demo image" width="300" height="180"/></a>
 				
 				</div>
 		</div>
 	</div>
 	
 	<div id="col1" align="center">
-		<p><img id="largeImg" src="images/FX-1L.jpg" alt="Large image" /></p>
+		<p><img id="largeImg" src="images/sl1l.jpg" alt="Large image" /></p>
 	</div>
 	
 	
