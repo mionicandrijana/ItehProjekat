@@ -5,14 +5,31 @@ switch ($_GET['page']) {
     
 
        
-    case '#tickets' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
+    case '#tickets' : $page = '<style>#6u{padding: 10px 30px; text-align:left; line-height:1.5em;}
+	h1{margin: 0em;
+	padding: 0em;
+	font-size: 26pt;
+	font-weight: 300;}</style>
        <br>
 	   <br>
 	   <h1>Ticket sales</h1>
+	   <br>
 	   <hr>
 <div><p>Tickets for the 2013 Eurovision Song Contest went on sale on the 26th of November at 10:00 CET. The general audience can buy tickets for the six rehearsals as well as the live shows.</p></div><div class="body"><p>Tickets are offered to nine shows: two Dress Rehearsals for each Semi-Final and the Grand Final, plus three live broadcasts.</p>
-<p><strong>Tickets for the live show of the Grand Final were sold out.</strong></p>
-<p>See the full schedule of the shows below:</p>
+<br><p><strong>Tickets for the live show of the Grand Final were sold out.</strong></p><br>
+<p>See the full schedule of the shows below:</p><br>
+<style>
+                    td{
+                        width: 250px;
+                        height: 30px;
+                    }
+                    th{
+                        background: #ddd;
+                        height: 25px;
+                        text-align: left;
+                        padding-left: 5px;
+                    }
+                </style>
 <table>
 <tbody>
 <tr><th>Show</th><th>Show date</th><th>Start of sale</th><th>Note</th></tr>
@@ -65,16 +82,17 @@ switch ($_GET['page']) {
 <td><strong>Sold out</strong></td>
 </tr>
 </tbody>
-</table>
+</table><br>
 <p>The prices for tickets are between 10 and 216 euros.</p>
 <p>The tickets for the Semi-Finals and all Dress Rehearsals can be bought online at <a href="http://www.Ticnet.se">Ticnet.se</a>, on the phone at +46 77 578 00 00 and at Ticnet outlets.</p>
 <p><span style="text-decoration: underline;">Tickets for the live show of the Grand Final will be available only on <a href="http://www.Ticnet.se">Ticnet.se</a> and on +46 77 578 00 00. </span></p>
-<p><strong>FOR NON-EUROPEAN CARD HOLDERS: You can use your local card when purchasing the tickets over the phone.</strong></p>
+
+<br><p><strong>FOR NON-EUROPEAN CARD HOLDERS: You can use your local card when purchasing the tickets over the phone.</strong></p>
 <p>More tickets will be available in the upcoming months after all technical details are finished.</p>
          ';
 break;
 		
-	case '#events' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
+	case '#events' : $page = '<style>#6u{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
        <br>
 	   <br>
 	   <h3>Upcoming events</h3><br>
@@ -97,10 +115,14 @@ break;
 		
 		
 		break;
-		case '#takepart' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
+		case '#takepart' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}
+		h1{margin: 0em;
+	padding: 0em;
+	font-size: 26pt;
+	font-weight: 300;}</style>
        <br>
 	   <br>
-	   <h3>How can I take part?</h3><br>
+	   <h1>How can I take part?</h1><br>
             <hr>
             <p>In the lead up to the Eurovision Song Contest, national selections take place in the represented countries. These national selections are being organized by the respective national public broadcasters who are Active Members of the European Broadcasting Union (EBU). In the United Kingdom, the BBC is taking care of the national selection, in Sweden its SVT, in Germany its NDR, etc.
 Good to know
