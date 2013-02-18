@@ -174,10 +174,10 @@ foreach ($json_objekat->drzave as $t){
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-$("#dugme").click(function(){
+$(".button-style2").click(function(){
 $.getJSON('server4.php', function(data) {
 $.each (data.drzave,function(i, drzave){
-$("#podaci").append(drazve.id_drz+" : "+drzave.naziv+"<br/>");
+$("#podaci").append(drzave.id_drz+" : "+drzave.naziv+"<br/>");
 
 })
 
@@ -192,7 +192,7 @@ $("#podaci").append(drazve.id_drz+" : "+drzave.naziv+"<br/>");
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-$("#dugme2").click(function(){
+$(".button-style2").click(function(){
 $.getJSON('server5.php', function(data) {
 $.each (data.predstavnici,function(i, predstavnici){
 $("#podaci2").append(predstavnici.id_pred+" : "+predstavnici.ime_prezime+"<br/>");
@@ -206,13 +206,13 @@ $("#podaci2").append(predstavnici.id_pred+" : "+predstavnici.ime_prezime+"<br/>"
 </script>
 </head>
 <body>
-<div id = "podaci"><h2>Popularni naslovi</h2><form method="GET" action="" id="forma">
-<input type = "button" value = "Prikazi popularne naslove" id="dugme"/>
+<br>
+<br>
+<div id = "podaci"><h1>All countries in order to performance</h1><form method="GET" action="" id="forma">
+<p class="button-style2" ><a>View all countries</a></p>
+
 </form></div> 
-		<br>
-		<div id = "podaci2"><h2>Popularni autori</h2><form method="GET" action="" id="forma">
-<input type = "button" value = "Prikazi popularne autore" id="dugme2"/>
-</form></div> 
+		
 
 
 

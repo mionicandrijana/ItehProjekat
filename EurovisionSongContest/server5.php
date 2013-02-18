@@ -1,9 +1,10 @@
 
-<?php//definiše se mime type
+<?php
+//definiše se mime type
 header("Content-type: application/json");?>{"predstavnici":<?php
 require_once "konekcija.php";
 
-$sql="SELECT predstavnici.id_pred, predstavnici.ime_prezime, predstavnici.pesma FROM predstavnici";
+$sql="SELECT predstavnici.id_pred, predstavnici.ime_prezime FROM predstavnici";
 if (!$q=$mysqli->query($sql)){
 echo '{"greska":"Nastala je greška pri izvršavanju upita."}';
 exit();

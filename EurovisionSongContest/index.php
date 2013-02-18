@@ -57,6 +57,7 @@ include 'include/header.php';
 					<div class="mobileUI-main-content" id="content">
 						<section>
 							<div class="post">
+							
 								<h2>Integer gravida nibh quis urna</h2>
 								<p class="subtitle">Augue praesent a lacus at urna congue rutrum</p>
 								<p><a href="#"><img src="images/pics03.jpg" alt=""></a><br>

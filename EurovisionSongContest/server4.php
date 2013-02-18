@@ -1,7 +1,7 @@
 <?php
 header("Content-type: application/json");?>{"drzave":<?php
 require_once "konekcija.php";
-$sql="SELECT drzave.id_drz, drzave.naziv FROM drzave WHERE drzave.id_drz='3' ";
+$sql="SELECT drzave.id_drz, drzave.naziv FROM drzave";
 if (!$q=$mysqli->query($sql)){
 echo '{"greska":"Nastala je greška pri izvršavanju upita."}';
 exit();

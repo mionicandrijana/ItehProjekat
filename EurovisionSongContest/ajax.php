@@ -147,10 +147,23 @@ If you sent in your song, the respective public broadcaster will inform you whet
 		case '#countdown' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
        <br>
 	   <br>
-	   <h3>Domaci zadatak 2</h3><br>
+	   <h3>Countdown</h3><br>
             <hr>
-            
-            <p>Objašnjenje nije potrebno jer se zadatak brani.</p><br>';    
+           <head> <script type="text/javascript">
+        TargetDate = "05/14/2013 12:01 AM";
+        BackColor = "red";
+        ForeColor = "white";
+        CountActive = true;
+        CountStepper = -1;
+        LeadingZero = true;
+        DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+        FinishMessage = "It is here!";
+    </script>
+    <script type="text/javascript" src="js/countdown.js"></script>
+	</head>
+	<body>
+	
+           ';    
             break;
 		
 }
