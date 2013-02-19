@@ -53,74 +53,64 @@ include 'include/header.php';
 	<div id="page">
 		<div class="5grid-layout">
 			<div class="row">
-				<div class="6u">
-					<div class="mobileUI-main-content" id="content">
-						<section>
+				
+					<div class="9u mobileUI-main-content" id="content">
+						
 							<div class="post">
 							
-								<h2>Integer gravida nibh quis urna</h2>
-								<p class="subtitle">Augue praesent a lacus at urna congue rutrum</p>
+								<h2>Since 1956...</h2>
+								<br>
+								<p class="subtitle">Eurovision Song Contest</p>
+								<br>
 								<p><a href="#"><img src="images/pics03.jpg" alt=""></a><br>
-									Welcome to <strong>Ex Machina</strong>, a free responsive HTML5 website template designed by 
-									<a href="http://html5templates.com/">HTML5Templates.com</a>. It features a modern business-oriented design, 
-									content-dense layout, and a neutral color scheme.  And like all of our templates, it is built on HTML5 and 
-									CSS3, has full responsive support for desktops, tablets, and mobile devices, and is 100% free to use 
-									personally or commercially under the <a href="http://html5templates.com/license/">Creative Commons license</a>. 
-									Be sure to check out our <a href="http://html5templates.com/">website</a> for more awesome free 
-									HTML5 templates and follow us on <a href="http://twitter.com/HTML5T">Twitter</a> for updates and new releases! Enjoy!</p>
-								<p class="button-style2"><a href="#">Read Full Article</a></p>
+								<p>Since 1956, the Eurovision Song Contest is Europe's favourite TV show. After more than five decades featuring some 1,100 songs, the contest has become a modern classic, strongly embedded into Europe's collective mind. Read on to find out how it all started over half a century ago...</p>
+									<br><p>In its almost 60 years, the Eurovision Song Contest and its participants broke many records and enriched us with countless fait divers. Eurovision.tv highlights the most remarkable and impressive records.</p>
+							<br>
+							<p>More than 1,000 songs already have taken part in the Eurovision Song Contest. In 2006, the song of Ireland's Brian Kennedy was number 1,000. In 2003, Cyprus delivered the 900th song for the Eurovision Song Contest. In 1999, Lydia's No Quiero Escuchar was the 800th song.
+
+Number 100 was T'en Va Pas, performed by Esther OFARIM for Switzerland, De Troubadour performed by Lenny Kuhr was the 200th song in 1969. Malta brought number 300 in 1975; Singing This Song. He, He M'sieurs Dames was the 400th song performed on the Eurovision Song Contest, this time by France in 1980.
+
+Luxembourg had the honour of presenting the 500th song in 1986, L'amour De Ma Vie, Portugal the 600th song in 1990 with Ha Sempre Slguem and in 1994, the Polish representative performed song number 700, To Nie Ja. The 1,100th song has been performed in 2008.</p>
+							<br>
+							<h2>Impressive records</h2><br><br>
+							<style>ul
+{
+list-style-type: circle;
+
+
+}</style>
+<p>
+<ul>
+<li>Every year an estimated amount of 125 million viewers watch the Eurovision Song Contest</li><br>
+<li>Noel Kelehan conducted five winners (1980, 1987, 1992, 1993 and 1996)</li><br>
+<li>Dutch conductor Dolf van der Linde conducted for seven different countries (Belgium, Germany, Ireland, Luxembourg, the Netherlands, Sweden and Switzerland </li><br>
+<li>Johnny Logan won the Eurovision Song Contest three times. In 1980 and 1987 he represented Ireland as performer and won both times, in 1992 he wrote Linda Martin's winning entry <em>Why Me</em></li><br>
+<li>Poland made the most impressive debute in 1994, when Edyta Gorniak came 2nd with <em>To Nie Ja</em>, closely followed by Serbia's victory in 2007. Although Serbia &amp; Montenegro was represented twice before, it was the first time that Serbia took part as an independent country </li><br>
+<li>Norway could be found at the bottom of the list as many as ten times! The unfortunates came last in 1963, 1969, 1974, 1976, 1978, 1981, 1990, 1997, 2001 and 2004. Nevertheless, they also won thrice (in 1985, 1995 and 2009)</li><br>
+<li>Ireland has won 7 times, Luxembourg, France and the United Kingdom 5 times. Sweden and the Netherlands won 4 times</li><br>
+<li>In 2001, the largest audience ever attended the Eurovision Song Contest. Almost 38,000 people gathered at Copenhagen's Parken Stadium to witness the first ever Estonian victory</li><br>
+<li>In 2008 and 2011, a record number of 43 countries participated</li><br>
+<li>in 2011, Lena, the winner of the 2010 Eurovision Song Contest, decided to defend her title on home ground - something only two people have done in the history of the contest.</li><br>
+</ul></p><br><br>
+<h2>Get your facts right!</h2><br><br>
+<ul>
+<li>German songwriter and composer Ralph Siegel took part 18 times, often together with Bernd Meinunger</li><br>
+<li>Only three women conducted the orchestra at the Eurovision Song Contest. Nurit Nirsch conducted the Israeli entries of 1973 and 1978, Monica Dominique conducted the Swedish 1973 entry and Anita KERR appeared in front of the orchestra for Switzerland in 1985</li><br>
+<li>Most winning songs were performed in English - songs (mostly) in English won 24 times. French is also popular, with 14 victories. Dutch and Hebrew songs won 3 times each</li><br>
+<li>Six different systems were used over the past decades to pick the winner of the Eurovision Song Contest</li><br>
+<li>ABBA is the most successful Eurovision Song Contest winner. The Swedish pop band won the contest in 1974 and has enjoyed phenomenal success ever since</li><br>
+<li>The most covered Eurovision Song Contest song is Domenico Mudugno's<em> Nel Blu Di Pinto Di Blu</em>, also known as Volare. The song has been covered by famous stars such as Dean Martin, Cliff Richard, David Bowie and many more</li><br>
+<li>Morocco took part in the Eurovision Song Contest only once (1980). Unfortunately, their first attempt was not very successful </li><br>
+</ul>
+							
+							<p></p>
+							<p></p>
 							</div>
-						</section>
+						
 					</div>
-				</div>
-				<div class="3u" id="sidebar1">
-					<section>
-						<h2>Ipsum Consequat</h2>
-						<ul class="style2">
-							<li class="first">
-								<p><a href="#"><img src="images/pics07.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-							<li>
-								<p><a href="#"><img src="images/pics08.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-							<li>
-								<p><a href="#"><img src="images/pics09.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-							<li>
-								<p><a href="#"><img src="images/pics10.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-						</ul>
-					</section>
-				</div>
-				<div class="3u">
-					<div id="sidebar2">
-						<section>
-							<div class="sbox1">
-								<h2>Feugiat Tempus</h2>
-								<ul class="style1">
-									<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
-									<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-									<li><a href="#">Donec dictum metus in sapien</a></li>
-									<li><a href="#">Nulla luctus eleifend purus</a></li>
-									<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-								</ul>
-							</div>
-						</section>
-						<section>
-							<div class="sbox2">
-								<h2>Nulla luctus eleifend</h2>
-								<ul class="style1">
-									<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
-									<li><a href="#">Donec dictum metus in sapien</a></li>
-									<li><a href="#">Integer gravida nibh quis urna</a></li>
-									<li><a href="#">Etiam posuere augue sit amet nisl</a></li>
-									<li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
-									<li><a href="#">Nulla luctus eleifend purus</a></li>
-								</ul>
-							</div>
-						</section>
-					</div>
-				</div>
+		
+			
+			<?php	include 'include/sidebar.php'; ?>
 			</div>
 		</div>
 	</div>

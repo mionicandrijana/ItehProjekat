@@ -48,7 +48,7 @@
                     $(this).addClass('selected');
 	 	
                     //hide the content and show the progress bar
-                    $('.6u').hide();
+                    $('.post').hide();
                     $('.loading').show();
 	 	
                     //run the ajax
@@ -80,10 +80,10 @@
                         $('.loading').hide();	
 			
                         //add the content retrieved from ajax and put it in the #content div
-                        $('.6u').html(html);
+                        $('.post').html(html);
 			
                         //display the body with fadeIn transition
-                        $('.6u').fadeIn('fast');		
+                        $('.post').fadeIn('fast');		
                     }		
                 });
             }

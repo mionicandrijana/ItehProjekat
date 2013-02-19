@@ -11,7 +11,7 @@
 							<li class="current_page_item"><a href="index.php">Home</a></li>
 							<li><a href="news.php">News</a></li>
 							<li><a href="thecontest.php">The Contest</a></li>
-							<li><a href="photovideo.php">Photo & Video</a></li>
+							<li><a href="photovideo.php">Photos</a></li>
 							<li><a href="funpage.php">Fun page</a></li>
 						</ul>
 					</nav>

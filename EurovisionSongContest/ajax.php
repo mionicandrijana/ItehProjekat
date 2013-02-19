@@ -5,7 +5,7 @@ switch ($_GET['page']) {
     
 
        
-    case '#tickets' : $page = '<style>#6u{padding: 10px 30px; text-align:left; line-height:1.5em;}
+    case '#tickets' : $page = '<style>#9u mobileUI-main-content{padding: 10px 30px; text-align:left; line-height:1.5em;}
 	h1{margin: 0em;
 	padding: 0em;
 	font-size: 26pt;
@@ -149,19 +149,7 @@ If you sent in your song, the respective public broadcaster will inform you whet
 	   <br>
 	   <h3>Countdown</h3><br>
             <hr>
-           <head> <script type="text/javascript">
-        TargetDate = "05/14/2013 12:01 AM";
-        BackColor = "red";
-        ForeColor = "white";
-        CountActive = true;
-        CountStepper = -1;
-        LeadingZero = true;
-        DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-        FinishMessage = "It is here!";
-    </script>
-    <script type="text/javascript" src="js/countdown.js"></script>
-	</head>
-	<body>
+           
 	
            ';    
             break;
