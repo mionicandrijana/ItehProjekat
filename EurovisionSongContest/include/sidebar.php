@@ -1,30 +1,56 @@
 <div class="3u" id="sidebar2">
-					<section>
-						<div class="sbox1">
-							<h2>Nulla luctus eleifend</h2>
-							<ul class="style1">
-								<li class="first"><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Etiam rhoncus volutpat erat</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-								<li><a href="#">Nulla luctus eleifend purus</a></li>
-								<li><a href="#">Maecenas luctus lectus at sapien</a></li>
-								<li><a href="#">Donec dictum metus in sapien</a></li>
-								
-							</ul>
-						</div>
-					</section>
-					<section>
-						<h2>Fusce ultrices fringilla</h2>
-						<ul class="style2">
-							<li class="first">
-								<p><a href="#"><img src="images/pics09.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-							<li>
-								<p><a href="#"><img src="images/pics10.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-							<li>
-								<p><a href="#"><img src="images/pics08.jpg" alt="">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. </a></p>
-							</li>
-						</ul>
-					</section>
+<style>
+h3{font-size: 20px;}</style>
+					<ul class="content-list content-item content-item-media">
+		
+		<li class="content-item-small clearfix">
+			<a href="video1.php">
+
+				<h3>Andrius Pojavis - Something (Lithuania)</h3>
+				<br>
+				<div class="details">
+					<img src="images/p1.jpg" alt="Hungary: A Dal 2013 third quarter final - rehearsals" title="" />										
+									</div>
+									<br>
+									<br>
+
+			</a>
+		</li><li class="content-item-small clearfix">
+			<a href="video2.php">
+
+				<h3>Hannah - Straight Into Love (Slovenia 2013 Eurovision Song Contest)</h3>
+				<br>
+				<div class="details">
+					<img src="images/p2.jpg" alt="Hannah - Straight Into Love (Slovenia 2013 Eurovision Song Contest)" title="" />										</div>
+<br>	<br>	
+			</a>
+		</li><li class="content-item-small clearfix">
+			<a href="video3.php">
+
+				<h3>Report from Vienna: Natália Kelly to represent Austria in Malmö</h3>
+				<br>
+				<div class="details">
+					<img src="images/p3.jpg" alt="Report from Vienna: Natália Kelly to represent Austria in Malmö" title="" />				
+					
+											</div>
+											<br>
+											<br>
+
+			</a>
+		</li>
+		<li class="content-item-small clearfix">
+			<a href="video4.php">
+
+				<h3>Natália Kelly - Shine (Austria)</h3>
+				<br>
+				<div class="details">
+					<img src="images/p4.jpg" alt="Report from Vienna: Natália Kelly to represent Austria in Malmö" title="" />				
+					
+											</div>
+											<br>
+											<br>
+
+			</a>
+		</li>
+	</ul>
 				</div>

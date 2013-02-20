@@ -73,7 +73,7 @@ Number 100 was T'en Va Pas, performed by Esther OFARIM for Switzerland, De Troub
 Luxembourg had the honour of presenting the 500th song in 1986, L'amour De Ma Vie, Portugal the 600th song in 1990 with Ha Sempre Slguem and in 1994, the Polish representative performed song number 700, To Nie Ja. The 1,100th song has been performed in 2008.</p>
 							<br>
 							<h2>Impressive records</h2><br><br>
-							<style>ul
+							<style>.post ul
 {
 list-style-type: circle;
 
@@ -91,20 +91,9 @@ list-style-type: circle;
 <li>In 2001, the largest audience ever attended the Eurovision Song Contest. Almost 38,000 people gathered at Copenhagen's Parken Stadium to witness the first ever Estonian victory</li><br>
 <li>In 2008 and 2011, a record number of 43 countries participated</li><br>
 <li>in 2011, Lena, the winner of the 2010 Eurovision Song Contest, decided to defend her title on home ground - something only two people have done in the history of the contest.</li><br>
-</ul></p><br><br>
-<h2>Get your facts right!</h2><br><br>
-<ul>
-<li>German songwriter and composer Ralph Siegel took part 18 times, often together with Bernd Meinunger</li><br>
-<li>Only three women conducted the orchestra at the Eurovision Song Contest. Nurit Nirsch conducted the Israeli entries of 1973 and 1978, Monica Dominique conducted the Swedish 1973 entry and Anita KERR appeared in front of the orchestra for Switzerland in 1985</li><br>
-<li>Most winning songs were performed in English - songs (mostly) in English won 24 times. French is also popular, with 14 victories. Dutch and Hebrew songs won 3 times each</li><br>
-<li>Six different systems were used over the past decades to pick the winner of the Eurovision Song Contest</li><br>
-<li>ABBA is the most successful Eurovision Song Contest winner. The Swedish pop band won the contest in 1974 and has enjoyed phenomenal success ever since</li><br>
-<li>The most covered Eurovision Song Contest song is Domenico Mudugno's<em> Nel Blu Di Pinto Di Blu</em>, also known as Volare. The song has been covered by famous stars such as Dean Martin, Cliff Richard, David Bowie and many more</li><br>
-<li>Morocco took part in the Eurovision Song Contest only once (1980). Unfortunately, their first attempt was not very successful </li><br>
-</ul>
+</ul></p>
+
 							
-							<p></p>
-							<p></p>
 							</div>
 						
 					</div>
