@@ -25,10 +25,10 @@ include 'include/header.php';
 				</div>
 				<div class="3u">
 					<section>
-						<h2 class="title">Upcoming events</h2>
+						<h2 class="title">Press</h2>
 						<p class="subtitle"></p>
 						<p><a href="#"><img src="images/17.jpg" alt=""></a></p>
-						<p class="button-style2"><a href="#events" rel="ajax">More Details</a></p>
+						<p class="button-style2"><a href="#press" rel="ajax">More Details</a></p>
 					</section>
 				</div>
 				<div class="3u">

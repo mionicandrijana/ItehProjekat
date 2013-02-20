@@ -92,25 +92,27 @@ switch ($_GET['page']) {
          ';
 break;
 		
-	case '#events' : $page = '<style>#6u{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
+	case '#press' : $page = '<style>#9u mobileUI-main-content{padding: 10px 30px; text-align:left; line-height:1.5em;}
+	h1{margin: 0em;
+	padding: 0em;
+	font-size: 26pt;
+	font-weight: 300;}</style>
        <br>
 	   <br>
-	   <h3>Upcoming events</h3><br>
-            <hr>
-            <h2>Forma</h2>
-            <p>Forma je implementirana na starnici prijava za mailing listu na koju se dolazi klikom na dugme prijava na pocetnoj strani.<br>frm.js<br>
-                - Vrsi validaciju forme tj. proverava da li su svi neophodni podaci uneti i ako nisu izbacuje poruku upozorenja<br>
-                - Ako se izabere opcija da se postavi automatski generisano pitanje otkriva se forma za izbor generisanog pitanja</p><hr><br>
-            <h2>Objekti</h2>
-            <p>-Osobine objekata su koriscene na starnici novosti gde pomocu funkcije preusmeri() i osobine window.location vraca na pocetu stranu.(preusmeri.js)<br>-Zatim se koristi objekat Date na svim stranicama u futeru prikazuje vreme i tu se takodje koristi document.write.(VremeDatum.js)<br></p><hr><br>
-            <h2>Meni</h2>
-            <p>-Meni je implementiran na strani domaci i on kilkom na odgovarajuci zahtev domaceg vodi na starnu gde je taj zahtev ispunjen.(menu.css; meni.js)</p><hr><br>
-            <h2>Kuki</h2>
-            <p>-Kuki je dat na stranici domaci<br>-Strana sadrzi js koji kreira kuki koji prilikom prve posete trazi od posetioca ime, a nakon toga, prilikom sledece posete pozeli dobrodoslicu istom posetiocu </p><hr><br>
-            <h2>Galerija</h2>
-            <p>Galerija je realizovana na stranici galerija, pomocu jQuerija jq-galerija.js</p><hr><br>
-            <h2>Pretraga</h2>
-            <p>Takodje na vecini stranica postoji pretraga za tu stranu koja radi samo u IE</p><br>.';    
+	   <h1>Press accreditation</h1>
+	   <br>
+	   <hr>
+	   <p></p>
+	     <p>The European Broadcasting Union considers the Press Accreditation (category P) to be a working tool to be used by media professionals only. This page describes the definition of a media professional.</p>
+	     <br>
+		 <p>GRANTING APPLICATIONS • The EBU and participating EBU Member broadcasters only provide accreditation to representatives of media which are available to the public in sales outlets, through publically accessible radio frequencies, television channels or internet sites. The media outlet should be registered at the Chamber of Commerce, or should be legally established otherwise.</p>
+	     <br>
+		 <p>DENYING APPLICATIONS • Publishers, marketing personnel, sub-editors, staff of the publications secretariat, advertising agency representatives, public relations agencies, students, Eurovision Song Contest fan publication producers, internal magazines of companies, trade magazines, and newsletters (or representatives of) one of the participating artists can not be accredited as press. However, at the sole discretion of the EBUs acting Head of Press, and where the quality and circulation criteria justify their consideration, such publications may be eligible for accreditation on a case by case basis.</p>
+		 <br>
+		 <p>PRIORITY • A limited number of accreditations is available per participating country, based on the capacity of the Press Centre. It is the responsibility of the respective Head of Delegation or Head of Press to give out accreditations with priority to mass media, such as national daily newspapers, mass-circulation magazines, leading radio- and television stations, and popular internet portals.</p>
+	   
+	   
+	   ';    
             
 		
 		
@@ -144,11 +146,15 @@ If you sent in your song, the respective public broadcaster will inform you whet
 
                
             break;
-		case '#countdown' : $page = '<style>#sadrzaj{padding: 10px 30px; text-align:left; line-height:1.5em;}</style>
+		case '#countdown' : $page = '<style>#9u mobileUI-main-content{padding: 10px 30px; text-align:left; line-height:1.5em;}
+	h1{margin: 0em;
+	padding: 0em;
+	font-size: 26pt;
+	font-weight: 300;}</style>
        <br>
+	   <h1>Countdown</h1>
 	   <br>
-	   <h3>Countdown</h3><br>
-            <hr>
+	   <hr>
            
 	
            ';    

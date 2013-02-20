@@ -12,9 +12,11 @@
 <link rel="stylesheet" href="css/5grid/core-noscript.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/style-desktop.css" />
-<link rel="shortcut icon" href="favicon.ico" />
-</noscript>
 
+
+	  
+</noscript>
+<link rel="shortcut icon" href="favicon.ico" />
 
  <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="css/5grid/jquery.js"></script>
