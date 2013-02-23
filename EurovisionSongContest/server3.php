@@ -23,7 +23,7 @@ header("Content-type: application/json");?>{"drzave":<?php
 $sql="SELECT drzave.naziv, predstavnici.ime_prezime, predstavnici.pesma FROM predstavnici INNER JOIN drzave ON predstavnici.id_drz=drzave.id_drz INNER JOIN faze_takmicenja ON drzave.id_faza=faze_takmicenja.id_faza WHERE faze_takmicenja.id_faza='3'";
 if (!$q=$mysqli->query($sql)){
 //ako se upit ne izvrši
-echo '{"greska":"Nastala je greška pri izvršavanju upita."}';
+echo '{"greska":"Error."}';
 exit();
 } else {
 //ako je upit u redu
@@ -38,7 +38,7 @@ $niz_json = json_encode ($niz);
 print ($niz_json);
 } else {
 //ako nema rezultata u bazi
-echo '{"greska":"Nema rezultata."}';
+echo '{"greska":"Empty."}';
 }
 }?>}
 <?php
@@ -63,7 +63,7 @@ if (!$q=$mysqli->query($sql)){
 
  $greska = $drzave->appendChild($dom->createElement('greska'));
 
- $greska->appendChild($dom->createTextNode("Došlo je do greške pri izvršavanju upita"));
+ $greska->appendChild($dom->createTextNode("Error"));
 } else {
 //ako je upit u redu
 if ($q->num_rows>0){
@@ -88,7 +88,7 @@ $naziv = $drzava->appendChild($dom->createElement('naziv'));
   //dodaje se element <greska> u korenom elementu <proizvodi>
  $greska = $tekst->appendChild($dom->createElement('greska'));
 
- $greska->appendChild($dom->createTextNode("Nema unetih proizvoda"));
+ $greska->appendChild($dom->createTextNode("Empty"));
 }
 }
 //cuvanje XML-a

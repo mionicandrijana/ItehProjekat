@@ -3,7 +3,7 @@ header("Content-type: application/json");?>{"drzave":<?php
 require_once "konekcija.php";
 $sql="SELECT drzave.id_drz, drzave.naziv FROM drzave";
 if (!$q=$mysqli->query($sql)){
-echo '{"greska":"Nastala je greška pri izvršavanju upita."}';
+echo '{"greska":"Error."}';
 exit();
 } else {
 //ako je upit u redu
@@ -16,7 +16,7 @@ $niz[] = $red;
 $niz_json = json_encode ($niz);
 print ($niz_json);
 } else {
-echo '{"greska":"Nema rezultata."}';
+echo '{"greska":"Empty."}';
 }
 }
 ?>}
