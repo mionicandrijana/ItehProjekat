@@ -23,34 +23,24 @@ $json_objekat=json_decode($curl_odgovor);
 <h1>1st Semi-Final</h1>
 <br>
 <br>
-<table>
-<tr>
-
-<th>Country</th>
-<th>Performer</th>
-<th>Song</th>
-
-</tr>
+<div class="CSSTableGenerator" >
+                <table >
+                    <tr>
+                        <td>
+                          Country
+                        </td>
+                        <td >
+                          Performer
+                        </td>
+                        <td>
+                            Song
+                        </td>
+                    </tr>
 <?php
 foreach ($json_objekat->drzave as $t){
 
 ?>
-<style>
-                    td{
-                        width: 200px;
-                        height: 25px;
-                    }
-                    th{
-                        background: #ddd;
-                        height: 25px;
-                        text-align: left;
-                        padding-left: 5px;
-                    }
-					h1{margin: 0em;
-	padding: 0em;
-	font-size: 26pt;
-	font-weight: 300;}
-                </style>
+
 <tr>
 
 <td><?php echo $t->naziv;?></td>
@@ -58,9 +48,11 @@ foreach ($json_objekat->drzave as $t){
 <td><?php echo $t->pesma?></td>
 
 </tr>
+
 <?php
 }
 ?></table>
+</div>
 <br>
 <br>
 						<?php
@@ -77,34 +69,24 @@ $json_objekat=json_decode($curl_odgovor);
 <h1>2nd Semi-Final</h1>
 <br>
 <br>
-<table>
-<tr>
-
-<th>Country</th>
-<th>Performer</th>
-<th>Song</th>
-
-</tr>
+<div class="CSSTableGenerator" >
+                <table >
+                    <tr>
+                        <td>
+                          Country
+                        </td>
+                        <td >
+                          Performer
+                        </td>
+                        <td>
+                            Song
+                        </td>
+                    </tr>
 <?php
 foreach ($json_objekat->drzave as $t){
 
 ?>
-<style>
-                    td{
-                        width: 200px;
-                        height: 25px;
-                    }
-                    th{
-                        background: #ddd;
-                        height: 25px;
-                        text-align: left;
-                        padding-left: 5px;
-                    }
-					h1{margin: 0em;
-	padding: 0em;
-	font-size: 26pt;
-	font-weight: 300;}
-                </style>
+
 <tr>
 
 <td><?php echo $t->naziv;?></td>
@@ -115,6 +97,8 @@ foreach ($json_objekat->drzave as $t){
 <?php
 }
 ?></table>
+
+</div>
 <br>
 <br>
 <?php
@@ -131,34 +115,24 @@ $json_objekat=json_decode($curl_odgovor);
 <h1>Final</h1>
 <br>
 <br>
-<table>
-<tr>
-
-<th>Country</th>
-<th>Performer</th>
-<th>Song</th>
-
-</tr>
+<div class="CSSTableGenerator" >
+                <table >
+                    <tr>
+                        <td>
+                          Country
+                        </td>
+                        <td >
+                          Performer
+                        </td>
+                        <td>
+                            Song
+                        </td>
+                    </tr>
 <?php
 foreach ($json_objekat->drzave as $t){
 
 ?>
-<style>
-                    td{
-                        width: 200px;
-                        height: 25px;
-                    }
-                    th{
-                        background: #ddd;
-                        height: 25px;
-                        text-align: left;
-                        padding-left: 5px;
-                    }
-					h1{margin: 0em;
-	padding: 0em;
-	font-size: 26pt;
-	font-weight: 300;}
-                </style>
+
 <tr>
 
 <td><?php echo $t->naziv;?></td>
@@ -169,6 +143,7 @@ foreach ($json_objekat->drzave as $t){
 <?php
 }
 ?></table>
+</div>
 		<head>
 <meta http-equiv='Content-Type' content='Type=text/html; charset=utf-8'>
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>

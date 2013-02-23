@@ -20,6 +20,8 @@
 
  <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="css/5grid/jquery.js"></script>
+<script src="css/5grid/html5shiv.js"></script>
+
 <script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
 
