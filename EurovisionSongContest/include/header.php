@@ -12,7 +12,7 @@
                                                         <li><a href="news.php">News</a></li>
 							<li><a href="thecontest.php">The Contest</a></li>
 							<li><a href="photovideo.php">Photos</a></li>
-							<li><a href="funpage.php">Fun page</a></li>
+							<li><a href="funpage.php">Fan page</a></li>
 						</ul>
 					</nav>
 				</div>
