@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 19, 2013 at 03:12 PM
+-- Generation Time: Feb 24, 2013 at 01:29 PM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.3.13
 
@@ -103,6 +103,31 @@ INSERT INTO `faze_takmicenja` (`id_faza`, `naziv_faze`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `komentari`
+--
+
+CREATE TABLE IF NOT EXISTS `komentari` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ime` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `komentar` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `video` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=17 ;
+
+--
+-- Dumping data for table `komentari`
+--
+
+INSERT INTO `komentari` (`id`, `ime`, `komentar`, `video`) VALUES
+(12, 'Bojana N', 'You are great.', 2),
+(13, 'Janko', 'Best song.', 2),
+(14, 'Jana', '<html>Ovo je spam</html>', 1),
+(15, 'Danica', 'Great song.', 4),
+(16, 'Mina', 'Congradulation :)', 3);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `predstavnici`
 --
 
@@ -123,11 +148,11 @@ INSERT INTO `predstavnici` (`id_pred`, `ime_prezime`, `pesma`, `id_drz`) VALUES
 (1, 'Natália Kelly', 'Shine ', 1),
 (2, 'Alyona Lanskaya', 'Rhythm Of Love', 2),
 (3, 'Roberto Bellarosa', 'Love Kills ', 3),
-(4, '', 'Mižerja ', 4),
+(4, 'Super Klapa', 'Mižerja ', 4),
 (5, 'Despina Olympiou', 'An Me Thimase ', 5),
 (6, 'Emmelie de Forest', 'Only Teardrops', 6),
 (7, 'To be announced', '', 7),
-(8, 'To be announced', '', 8),
+(8, 'Ryan Dolan', 'Only Love Survives ', 8),
 (9, 'Andrius Pojavis', 'Something ', 9),
 (10, 'To be announced', '', 10),
 (11, 'Who See', 'Igranka ', 11),
@@ -141,9 +166,9 @@ INSERT INTO `predstavnici` (`id_pred`, `ime_prezime`, `pesma`, `id_drz`) VALUES
 (19, 'To be announced', '', 19),
 (20, 'Elitsa & Stoyan', 'To be announced', 20),
 (21, 'Lozano & Esma', 'To be announced', 21),
-(22, 'To be announced', '', 22),
+(22, 'Krista Siegfrids', ' 	Marry Me ', 22),
 (23, 'Nodi Tatishvili & Sophie Gelovani', 'Waterfall ', 23),
-(24, 'To be announced', '', 24),
+(24, 'Koza Mostra and Agathonas Iakovidis', ' 	Alcohol Is Free ', 24),
 (25, 'To be announced', '', 25),
 (26, 'Eyþór Ingi Gunnlaugsson', 'Ég á Líf', 26),
 (27, 'To be announced', '', 27),
