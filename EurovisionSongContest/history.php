@@ -49,29 +49,19 @@ include 'include/header.php';
                                                     <?php
                                                     $history = new SimpleXMLElement('xmlfile.xml', null, true);
                                                     ?>
+													<div class="CSSTableGenerator" >
                                                     <table>
                                                         <tr>
-                                                            <th>Year</th>
-                                                            <th>City</th>
-                                                            <th>Country</th>
-                                                            <th>Winner</th>
+                                                            <td>Year</td>
+                                                            <td>City</td>
+                                                            <td>Country</td>
+                                                            <td>Winner</td>
                                                         </tr>
 
                                                         <?php
                                                         foreach ($history as $p) {
                                                             ?>
-                                                            <style>
-                                                                td{
-                                                                    width: 170px;
-                                                                    height: 20px;
-                                                                }
-                                                                th{
-                                                                    background: #ddd;
-                                                                    height: 25px;
-                                                                    text-align: left;
-                                                                    padding-left: 5px;
-                                                                }
-                                                            </style>
+                                                           
                                                             <tr>
                                                                 <td><?php echo $p->year; ?></td>
                                                                 <td><?php echo $p->grad; ?></td>
@@ -83,6 +73,7 @@ include 'include/header.php';
                                                         }
                                                         ?>
                                                     </table>
+													</div>
 						</div>
 					</section>
 				</div>
