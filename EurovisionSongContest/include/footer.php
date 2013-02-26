@@ -83,7 +83,38 @@
 <div id="footer-wrapper">
 	<div class="5grid-layout">
 		<div class="row" id="footer-content">
-			
+			<div class="3u" id="box2">
+				<section>
+				<!-- Feedzilla Widget BEGIN -->
+
+<div class="feedzilla-news-widget feedzilla-05292244916650146" style="width:250px; padding: 0; text-align: center; font-size: 11px; border: 0;">
+<script type="text/javascript" src="http://widgets.feedzilla.com/news/iframe/js/widget.js"></script>
+<script type="text/javascript">
+new FEEDZILLA.Widget({
+	style: 'slide-top-to-bottom',
+	culture_code: 'en_all',
+	c: '1084',
+	sc: '-',
+	headerBackgroundColor: '#2959f5',
+	footerBackgroundColor: '#2959f5',
+	title: 'Music',
+	caption: 'All',
+	order: 'relevance',
+	count: '20',
+	w: '250',
+	h: '300',
+	timestamp: 'true',
+	scrollbar: 'false',
+	theme: 'ui-lightness',
+	className: 'feedzilla-05292244916650146'
+});
+</script><br />
+<a href="http://widgets.feedzilla.com/news/builder/index.html?utm_source=feedzilla&utm_medium=widget&utm_campaign=widget%2Blink" target="_blank">Get Your News Widget</a>
+</div>
+
+<!-- Feedzilla Widget END -->
+				</section>
+			</div>
 			<div class="3u" id="box2">
 				<section>
 				<a href="host.php">	<h2>Host Country of the 2013 Eurovision Song Contest</h2></a>
