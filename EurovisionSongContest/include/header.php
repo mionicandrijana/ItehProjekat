@@ -10,6 +10,10 @@
 						<ul id="topmenu">
 							<li class="current_page_item"><a href="index.php">Home</a></li>
                                                         <li><a href="news.php">News</a></li>
+<!--                                                        <ul>
+                                                            <li><a href="news1.php">News 1</li>
+                                                            <li><a href="news2.php">News 2</li>
+                                                        </ul>-->
 							<li><a href="thecontest.php">The Contest</a></li>
 							<li><a href="photovideo.php">Photos</a></li>
 							<li><a href="history.php">History</a></li>
