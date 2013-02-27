@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Feb 25, 2013 at 10:23 AM
+-- Generation Time: Feb 27, 2013 at 12:10 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -29,55 +29,57 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `drzave` (
   `id_drz` int(11) NOT NULL AUTO_INCREMENT,
   `naziv` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `grad` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `id_faza` int(11) NOT NULL,
   PRIMARY KEY (`id_drz`),
   KEY `id_faza` (`id_faza`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=40 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=42 ;
 
 --
 -- Dumping data for table `drzave`
 --
 
-INSERT INTO `drzave` (`id_drz`, `naziv`, `id_faza`) VALUES
-(1, 'Austria', 1),
-(2, 'Belarus', 1),
-(3, 'Belgium', 1),
-(4, 'Croatia', 1),
-(5, 'Cyprus', 1),
-(6, 'Denmark', 1),
-(7, 'Estonia', 1),
-(8, 'Ireland', 1),
-(9, 'Lithuania', 1),
-(10, 'Moldova', 1),
-(11, 'Montenegro', 1),
-(12, 'Russia', 1),
-(13, 'Serbia', 1),
-(14, 'Slovenia', 1),
-(15, 'Ukraine', 1),
-(16, 'The Netherlands', 1),
-(17, 'Albania', 2),
-(18, 'Armenia', 2),
-(19, 'Azerbaijan', 2),
-(20, 'Bulgaria', 2),
-(21, 'F.Y.R. Macedonia', 2),
-(22, 'Finland', 2),
-(23, 'Georgia', 2),
-(24, 'Greece', 2),
-(25, 'Hungary', 2),
-(26, 'Iceland', 2),
-(27, 'Israel', 2),
-(28, 'Latvia', 2),
-(29, 'Norway', 2),
-(30, 'Malta', 2),
-(31, 'Romania', 2),
-(32, 'San Marino', 2),
-(33, 'Switzerland', 2),
-(34, 'France', 3),
-(35, 'Germany', 3),
-(36, 'Italy', 3),
-(37, 'Sweden', 3),
-(38, 'United Kingdom', 3),
-(39, 'Spain', 3);
+INSERT INTO `drzave` (`id_drz`, `naziv`, `grad`, `id_faza`) VALUES
+(1, 'Austria', 'Wiena', 1),
+(2, 'Belarus', 'Minsk', 1),
+(3, 'Belgium', 'Brussels ', 1),
+(4, 'Croatia', 'Zagreb', 1),
+(5, 'Cyprus', 'Nicosia', 1),
+(6, 'Denmark', 'Copenhagen', 1),
+(7, 'Estonia', 'Tallinn', 1),
+(8, 'Ireland', 'Dublin', 1),
+(9, 'Lithuania', 'Vilnuis', 1),
+(10, 'Moldova', 'Chisniau', 1),
+(11, 'Montenegro', 'Podgorica', 1),
+(12, 'Russia', 'Moscow', 1),
+(13, 'Serbia', 'Belgrade', 1),
+(14, 'Slovenia', 'Ljubljana', 1),
+(15, 'Ukraine', 'Kiev', 1),
+(16, 'The Netherlands', 'Amsterdam', 1),
+(17, 'Albania', 'Tirana', 2),
+(18, 'Armenia', 'Yerevan', 2),
+(19, 'Azerbaijan', 'Baku', 2),
+(20, 'Bulgaria', 'Sofia', 2),
+(21, 'F.Y.R. Macedonia', 'Skopje', 2),
+(22, 'Finland', 'Helsinki', 2),
+(23, 'Georgia', 'Tbilisi', 2),
+(24, 'Greece', 'Athens', 2),
+(25, 'Hungary', 'Budapest', 2),
+(26, 'Iceland', 'Reykjavik', 2),
+(27, 'Israel', 'Jerusalem', 2),
+(28, 'Latvia', 'Riga', 2),
+(29, 'Norway', 'Oslo', 2),
+(30, 'Malta', 'Valletta', 2),
+(31, 'Romania', 'Bucharest', 2),
+(32, 'San Marino', 'City of San Marino', 2),
+(33, 'Switzerland', 'Bern', 2),
+(34, 'France', 'Paris', 3),
+(35, 'Germany', 'Berlin', 3),
+(36, 'Italy', 'Roma', 3),
+(37, 'Sweden', 'Malmo', 3),
+(38, 'United Kingdom', 'Birmingham', 3),
+(39, 'Spain', 'Madrid', 3),
+(41, 'Turkey', 'Istanbul', 2);
 
 -- --------------------------------------------------------
 
@@ -108,7 +110,7 @@ INSERT INTO `faze_takmicenja` (`id_faza`, `naziv_faze`) VALUES
 
 CREATE TABLE IF NOT EXISTS `history` (
   `year` int(4) NOT NULL AUTO_INCREMENT,
-  `winner` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `winner` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `id_drz` int(11) NOT NULL,
   PRIMARY KEY (`year`),
   KEY `id_drz` (`id_drz`)
@@ -125,7 +127,7 @@ INSERT INTO `history` (`year`, `winner`, `id_drz`) VALUES
 (2001, 'Tanel Padar', 6),
 (2002, 'Marie N', 7),
 (2003, 'Sertab Erener', 28),
-(2004, 'Ruslana', 42),
+(2004, 'Ruslana', 41),
 (2005, 'Helena Paparizou', 15),
 (2006, 'Lordi', 24),
 (2007, 'Marija Serifovic', 22),
@@ -147,7 +149,7 @@ CREATE TABLE IF NOT EXISTS `komentari` (
   `komentar` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `video` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `komentari`
@@ -158,7 +160,8 @@ INSERT INTO `komentari` (`id`, `ime`, `komentar`, `video`) VALUES
 (13, 'Janko', 'Best song.', 2),
 (14, 'Jana', '<html>Ovo je spam</html>', 1),
 (15, 'Danica', 'Great song.', 4),
-(16, 'Mina', 'Congradulation :)', 3);
+(16, 'Mina', 'Congradulation :)', 3),
+(17, 'bojana', 'test', 1);
 
 -- --------------------------------------------------------
 
@@ -229,6 +232,12 @@ INSERT INTO `predstavnici` (`id_pred`, `ime_prezime`, `pesma`, `id_drz`) VALUES
 --
 ALTER TABLE `drzave`
   ADD CONSTRAINT `drzave_ibfk_2` FOREIGN KEY (`id_faza`) REFERENCES `faze_takmicenja` (`id_faza`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `history`
+--
+ALTER TABLE `history`
+  ADD CONSTRAINT `history_ibfk_1` FOREIGN KEY (`id_drz`) REFERENCES `drzave` (`id_drz`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `predstavnici`
